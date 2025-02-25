@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easily transcribe any YouTube video with this step-by-step tool - perfect for exam prep and content creation!">
+    <meta name="keywords" content="youtube transcript, transcribe video, exames insight, free tool">
+    <meta name="author" content="Exames Insight">
+    <title>YouTube Transcript Tool - Exames Insight</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c5282;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .intro {
+            text-align: center;
+            font-size: 1.1em;
+            color: #4a5568;
+            margin-bottom: 30px;
+        }
+        .step {
+            background: #f7fafc;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 5px solid #3182ce;
+        }
+        .step h2 {
+            color: #3182ce;
+            font-size: 1.6em;
+            margin-top: 0;
+        }
+        .step p {
+            margin: 10px 0;
+        }
+        a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #edf2f7;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        .note {
+            background: #fefcbf;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 5px solid #d69e2e;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #718096;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            h1 { font-size: 2em; }
+            .step h2 { font-size: 1.4em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Transcript Tool</h1>
+        <p class="intro">Get transcripts for any YouTube video—captioned or not—with this simple, free method!</p>
+
+        <div class="step">
+            <h2>Step 1: Copy the YouTube Video URL</h2>
+            <p>Find the video you want to transcribe and copy its URL from the address bar. Example: <code>https://www.youtube.com/watch?v=dQw4w9WgXcQ</code></p>
+        </div>
+
+        <div class="step">
+            <h2>Step 2: Check YouTube’s Built-in Transcript</h2>
+            <p>Open the video, click the three dots (<code>…</code>) below the player, and select "Show transcript." If available, copy the text. If not, proceed to Step 3.</p>
+        </div>
+
+        <div class="step">
+            <h2>Step 3: Download the Audio (For Videos Without Transcripts)</h2>
+            <p>Use a free tool to extract the audio:</p>
+            <ul>
+                <li><strong>Online Option</strong>: Go to <a href="https://ytmp3.cc" target="_blank">ytmp3.cc</a>, paste the URL, select "MP3," and download.</li>
+                <li><strong>Advanced Option</strong>: Install <a href="https://github.com/yt-dlp/yt-dlp" target="_blank">yt-dlp</a> and run: 
+                    <code>yt-dlp -x --audio-format mp3 "YOUR_URL" -o "audio.mp3"</code></li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h2>Step 4: Transcribe the Audio</h2>
+            <p>Upload the MP3 to a free transcription service:</p>
+            <ul>
+                <li><a href="https://otter.ai" target="_blank">Otter.ai</a>: Free up to 600 minutes/month—upload and get your transcript in minutes.</li>
+                <li><a href="https://flixier.com/tools/youtube-transcriber" target="_blank">Flixier</a>: Free browser-based option—upload or paste URL if supported.</li>
+            </ul>
+            <p>Copy the transcript to your clipboard or save it as a file!</p>
+        </div>
+
+        <div class="note">
+            <p><strong>Note:</strong> This method works for any public YouTube video, even without captions. For personal use only—respect copyright laws!</p>
+        </div>
+
+        <footer>
+            <p>© 2025 Exames Insight | Designed for Competitive Exam Prep</p>
+        </footer>
+    </div>
+</body>
+</html>
